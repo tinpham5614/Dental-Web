@@ -15,10 +15,10 @@
 
 }
 
-#logo {
+header #logo {
     margin-left: 430px;
 }
-#text-logo{
+header #text-logo{
     font-size: 20px;
     text-align: center;
 }
