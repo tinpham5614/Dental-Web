@@ -9,15 +9,18 @@
          url('../fonts/architectsdaughter-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
+#logo {
+    margin-left: 430px;
+}
+#text-logo{
+    font-size: 20px;
+    text-align: center;
+}
 #wrapper{
-    
     width: 980px;
     margin: 0 auto;
     overflow: hidden;
-    
 }
 header{
     animation-name: example;
