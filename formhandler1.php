@@ -18,7 +18,7 @@ if (mysqli_connect_errno())
 }
 
 $txtName = $_POST['Name'];
-$txtEmail = $_POST['mail'];
+$txtEmail = $_POST['Email'];
 $txtPhone = $_POST['Phone'];
 $txtMessage = $_POST['comments'];
 $textCheck = $_POST['time'];
