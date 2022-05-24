@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'dentalweb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02D534CDB7234F938EA37653EC92AC86 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4F7A0F01E8754F1499047E61A91BACD8 }}
           package: .
