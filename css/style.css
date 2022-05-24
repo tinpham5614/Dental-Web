@@ -1,10 +1,7 @@
 *{
-    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    
 }
 @font-face {
     font-family: 'architects_daughterregular';
@@ -14,15 +11,6 @@
     font-style: normal;
 
 }
-
-header #logo {
-    margin-left: 430px;
-}
-header #text-logo{
-    font-size: 20px;
-    text-align: center;
-}
-
 
 #wrapper{
     
