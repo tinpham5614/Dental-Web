@@ -21,6 +21,7 @@ $txtName = $_POST['Name'];
 $txtEmail = $_POST['mail'];
 $txtPhone = $_POST['Phone'];
 $txtMessage = $_POST['comments'];
+$textCheck = $_POST['time'];
 $check="";
 foreach($textCheck as $check1)
     {
