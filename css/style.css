@@ -1,0 +1,283 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('../fonts/architectsdaughter-webfont.woff2') format('woff2'),
+         url('../fonts/architectsdaughter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#logo {
+    margin-left: 430px;
+}
+#text-logo{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#wrapper{
+    
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+header{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    padding: 10px;
+    animation-direction: alternate;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+@keyframes example {
+    0%   {background-color: white;}
+    75%  {background-color: lightgreen;}
+    
+}
+
+main {
+    float: left;
+    padding: 10px;
+    margin-left: 5px;
+    width: 600px;
+}
+main li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.left{
+    float: left;
+    margin-right:10px;
+}
+.text{
+    width:auto;
+}
+.text-2{
+    width: 600px;
+}
+
+.row{
+    clear: both;
+    margin-bottom:20px;
+    overflow: hidden;
+    
+}
+
+#primary{
+    background: darkgreen;
+    height: 50px;
+    line-height: 50px; 
+}
+#primary li{
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    text-align:center;
+    font-family: 'architects_daughterregular';
+    border-radius: 10px;
+}
+#primary a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#primary a:hover{
+    background: green;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+h1 {
+    font-family: 'architects_daughterregular';
+    color: darkgreen;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    font-family: 'architects_daughterregular';
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: darkgreen;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+input[type=text], input[type=submit]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+aside{
+    width: 340px;
+    float: right; 
+    margin-bottom: 15px;
+    margin-right: 5px;
+    
+}
+aside img{
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+.signup{
+    border: 4px solid #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+}
+aside button{
+    padding: 15px 0;
+    margin-top: 30px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    border-bottom: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+footer{
+    border-top: 1px dotted #666;
+    height: 30px;
+    clear: both; /* keep the 3rd sub same position*/
+    font-size: .9em;
+
+}
+footer ul{
+    float: right;
+}
+footer li{ 
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+footer a{
+    color:#666;
+}
+.third{
+    float: left;
+    width: 326px;
+    height: auto;
+    text-align: center;
+    padding-right: 50px; 
+}
+.third:last-of-type{
+    margin-right:0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+/*this is contact css*/
+legend{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+input[type=radio],input[type=checkbox]
+{
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    
+}
+label{
+    display: block;
+    font-size:17px;
+}
+form{
+    width: auto;
+}
+form ul{
+    
+}
+form li{
+    list-style-type:none;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+/*this is about css*/
+figcaption {
+    background: black;
+    color: #fff;
+    padding: 8px;
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: 10px;
+}
+
+/* this is my service css*/
+#secondary {
+    margin-bottom: 15px;    
+}
+#secondary li{
+    list-style-type: none;
+    background: darkgreen;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    
+}
+#secondary a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+#secondary a:hover {
+    background: green;
+    color: white;
+    border-radius: 10px;
+}

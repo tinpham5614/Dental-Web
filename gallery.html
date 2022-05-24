@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>Gallery Page Final Project</title>
+<link href="css/gallery.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body> 
+    <div id="wrapper">
+    <header>
+        <a href="index.html">
+        <img id="logo" src="images/logo.png" alt="logo" >   
+        </a>
+        <div id="text-logo">
+            <a href="index.html">
+                <h1>Green Seattle Dental</h1>
+            </a>
+        </div>
+    </header>
+    
+    <nav id="primary">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACTS</a></li>
+    
+        </ul>
+    </nav>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+        <main>
+                
+            <h1> Dental Care Seattle Office </h1>
+ <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/office1.png" style="width:100%" alt="Office 1">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/office2.png" style="width:100%" alt="Office 2">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/office3.png" style="width:100%" alt="Office 3">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/office4.png" style="width:100%" alt="Office 4">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/office5.png" style="width:100%" alt="Office 5">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/office6.png" style="width:100%" alt="Office 6">
+  </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/office1.png" style="width:100%" onclick="currentSlide(1)" alt="Office 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/office2.png" style="width:100%" onclick="currentSlide(2)" alt="Office 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/office3.png" style="width:100%" onclick="currentSlide(3)" alt="Office 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/office4.png" style="width:100%" onclick="currentSlide(4)" alt="Office 4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/office5.png" style="width:100%" onclick="currentSlide(5)" alt="Office 5">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/office6.png" style="width:100%" onclick="currentSlide(6)" alt="Office 6">
+    </div>
+  </div>
+       
+</div>        
+            </main>
+        
+        
+        <aside>
+            <img src="images/teeth.png" alt="teeth">
+            <form action="formhandler.php" method="post">
+            <div class="signup">
+            <h3>E-NEWSLETTER SIGNUP</h3>
+            <p>SUBSCRIBE</p>
+            <p>Subscribe to our newsletter for the latest news and services updates straight to your inbox.</p>
+            </div>
+            <div class="signup">
+            <input type="text" placeholder="Email" name="mail">
+            <input type="submit" value="Subscribe">
+                
+            </div>
+           </form>
+        </aside>
+        
+        <footer>
+            
+            <div class="row">
+            
+            <div class="third">
+            <h3>Opening Hours</h3>
+                <p>Monday: 8AM - 6PM</p>
+                <p>Tuesday: 8AM - 6PM</p>
+                <p>Wednesday: 9AM - 7PM</p>
+                <p>Thursday: 8AM - 6PM</p>
+                <p>Friday: 8AM - 6PM</p>
+                <p>Sat-Sun: Closed</p>
+                
+            
+            </div>
+            
+            <div class="third">
+            <h3>Contact Information</h3>
+            <p>3818 S Othello Street, 2nd Floor,<br> Seattle, WA 98118</p>
+            <p>TEL: 206-123-1234</p>
+            <p>TTY: 206-123-1234</p>
+            <p><strong>MAILING ADDRESS</strong></p>
+            <p>PO BOX 3007 Seattle, WA 98114-3007</p>
+            </div>
+                
+            <div class="third">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="http://www.instagram.com"><img src="images/insta.jpg" alt="insta"></a></li>
+                <li><a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter"></a></li>
+                <li><a href="http://www.youtube.com"><img src="images/snap.jpg" alt="snap"></a></li>
+                
+            </ul>
+            </div>
+            
+            
+            
+        
+        </div> <!--end row-->
+            <ul>
+            <li><i>Copyright 2022 ©</i></li>
+            <li> <i>All Rights Reserved</i></li>
+                <li><i><a href="https://github.com/tinpham5614/capstone"> Web Design by Tin</a></i></li>
+                <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fcentral.mystudentswa.com%2Ftinph%2Fweb110%2Ffinal%2Fgallery.html"><img src="images/html.png" alt="html"></a></li>
+            <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fcentral.mystudentswa.com%2Ftinph%2Fweb110%2Ffinal%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+        </a></li>
+            </ul>
+        </footer>
+</div> <!-- end wrapper -->
+</body>
+</html>
