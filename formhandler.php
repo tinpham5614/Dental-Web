@@ -2,7 +2,7 @@
 
 $host = 'dbcontact.mysql.database.azure.com';
 $username = 'qwe';
-$password = 'Tinpham4491!';
+$password = '';
 $db_name = 'dbcontact';
 
 $conn = mysqli_init();
