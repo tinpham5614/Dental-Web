@@ -9,7 +9,7 @@ $conn = mysqli_init();
 
 
 // Establish the connection
-mysqli_real_connect($conn, 'dbcontact.mysql.database.azure.com', 'qwe', 'Tinpham4491!', 'dbcontact', 3306, NULL, MYSQLI_CLIENT_SSL);
+mysqli_real_connect($conn, 'dbcontact.mysql.database.azure.com', 'qwe', '', 'dbcontact', 3306, NULL, MYSQLI_CLIENT_SSL);
 
 //If connection failed, show the error
 if (mysqli_connect_errno())
