@@ -1,4 +1,6 @@
-# capstone
+# Dental Web Application
+![project1a](https://user-images.githubusercontent.com/72054441/180857868-f6faeada-0fd0-431f-9dc9-7e7832bafdc9.gif)
+
 - This project is a dental web app. 
 - Creating this project for a “fiction” client. 
 - The project will allow patients to have access to useful information and easily make an appointment by using a form on the contact page. 
